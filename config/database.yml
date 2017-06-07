@@ -1,0 +1,39 @@
+development:
+  adapter:  postgresql
+  host:     localhost
+  encoding: unicode
+  database: gentelella_rails_demo_development
+  pool:     5
+  username: gentelella_rails_demo
+  password:
+  template: template0
+
+staging:
+  adapter:  postgresql
+  host:     localhost
+  encoding: unicode
+  database: gentelella_rails_demo_staging
+  pool:     5
+  username: gentelella_rails_demo
+  password:
+  template: template0
+
+test:
+  adapter:  postgresql
+  host:     localhost
+  encoding: unicode
+  database: gentelella_rails_demo_test
+  pool:     5
+  username: gentelella_rails_demo
+  password:
+  template: template0
+
+production:
+  adapter:  postgresql
+  host:     localhost
+  encoding: unicode
+  database: gentelella_rails_demo_production
+  pool:     5
+  username: gentelella_rails_demo
+  password:
+  template: template0
